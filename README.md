@@ -1,4 +1,4 @@
-# vueapp
+# mp-from-nyt
 
 ## Project setup
 ```
