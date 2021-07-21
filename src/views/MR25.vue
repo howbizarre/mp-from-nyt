@@ -6,7 +6,9 @@
                 <h3 class="mb-3">That Will Inspire You To Change Your life</h3>
                 <ul id="array-rendering">
                     <li v-for="data in myJson" :key="data">
-                        {{ data }}
+                        <blockquote class="blockquote">
+                            {{ data }}
+                        </blockquote>
                     </li>
                 </ul>
             </template>
