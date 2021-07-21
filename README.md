@@ -1,4 +1,4 @@
-# mp-from-nyt
+# Most Popular from NYT
 
 ## Project setup
 ```
