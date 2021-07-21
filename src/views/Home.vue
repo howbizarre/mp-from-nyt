@@ -74,6 +74,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="p-5 bg-light border rounded-3">
                 <h2>Bootstrap Grid</h2>
                 <p>

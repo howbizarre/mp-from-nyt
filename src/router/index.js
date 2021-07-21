@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 
 import Home from "../views/Home.vue";
 import NYT from "../views/NYT.vue";
+import MR25 from "../views/MR25.vue";
 
 export const routes = [
     {
@@ -14,6 +15,12 @@ export const routes = [
         path: "/nyt",
         name: "NYT",
         component: NYT,
+        meta: { layout: "MainLayout" },
+    },
+    {
+        path: "/mr25",
+        name: "MR25",
+        component: MR25,
         meta: { layout: "MainLayout" },
     },
 ];

@@ -55,3 +55,14 @@
         },
     };
 </script>
+
+<style scoped>
+    ul {
+        list-style-type: none;
+        padding-left: 0;
+    }
+
+    ul li {
+        margin-bottom: 1rem;
+    }
+</style>

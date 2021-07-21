@@ -11,6 +11,7 @@ async function getData(url) {
 }
 
 module.exports = {
+    crossorigin: "anonymous",
     devServer: {
         before: function(app, server) {
             app.get("/rsp", function(req, res) {
